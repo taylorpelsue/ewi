@@ -92,8 +92,9 @@ li.dropdown {
     margin-top: 0px;
     padding-top: 1%;
     padding-bottom: 1%;
-    position: sticky;
+    position: absolute;
     bottom: 0;
+    left: 0;
     background: linear-gradient(white, gray);
     color: black;
     font-family: helvetica;
