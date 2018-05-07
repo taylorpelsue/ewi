@@ -2,31 +2,41 @@ body {
     background-image: url("../images/background.png");
 
 }
+
+[class*="col-"] {
+    margin-top: 2%;
+}
 .navbar{
     background: linear-gradient(white, gray);
     width: 100%;
     padding: 0;
     height: 60px;
 }
-#logo {
+.mower {
+    margin-top:2%;
     margin-left: 5%;
+    margin-bottom: 2%;
+}
+#logo {
+    margin-left: 10%;
+    padding-left: 5%;
     padding: 0%;
 }
 
-p {
-    margin-left: 5%;
+.card {
+    width: 90%;
+    padding: 0;
 }
-
 li a, .navlinks {
     display: inline-block;
     color: black;
     text-align: center;
     padding: 14px 12px;
     text-decoration: none;
-    font-size: 125%;
+    font-size: 110%;
     margin: 2%;
+    font-weight: 500;
 }
-
 li a:hover, .dropdown:hover .dropbtn {
     background-color: lightslategray;
 }
@@ -59,6 +69,23 @@ li.dropdown {
 }
 .navbar-expand-lg .navbar-collapse {
     margin-right: 5%;
+}
+
+.d-block w-100 {
+    width: 640px;
+    height: 360px;
+}
+#cardimage {
+    /* float: right; */
+    position: absolute;
+    top: 35%;
+    right: 3%;
+}
+.carousel {
+    overflow: auto;
+  }
+#slideshow {
+    align-content: center;
 }
 #footer {
     width: 100%;
