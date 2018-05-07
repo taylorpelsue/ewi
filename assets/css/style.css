@@ -14,6 +14,7 @@ body {
 }
 .mower {
     margin-bottom: 5%;
+    
 }
 #logo {
     margin-left: 10%;
@@ -22,7 +23,8 @@ body {
 }
 
 .card {
-    width: 90%;
+    width: 100%;
+    margin-bottom: 2%;
     padding: 0;
 }
 li a, .navlinks {
